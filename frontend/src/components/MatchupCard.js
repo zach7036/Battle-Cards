@@ -1,4 +1,5 @@
 import React from 'react';
+import './MatchupCard.css';
 
 const MatchupCard = ({ creature }) => {
   if (!creature) {
@@ -7,7 +8,7 @@ const MatchupCard = ({ creature }) => {
 
   return (
     <div className="matchup-card">
-      <img src={creature.imageUrl || 'https://via.placeholder.com/150'} alt={creature.name} />
+      <img src={creature.image_url || 'https://via.placeholder.com/150'} alt={creature.name} />
       <h2>{creature.quantity} {creature.name}</h2>
     </div>
   );

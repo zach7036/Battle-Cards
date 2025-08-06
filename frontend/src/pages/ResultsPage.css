@@ -1,0 +1,67 @@
+.results-page {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.result-bar-container {
+  margin-bottom: 20px;
+}
+
+.result-bar {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.result-bar-inner {
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+  white-space: nowrap;
+  transition: width 1s ease-in-out;
+}
+
+.result-bar-a {
+  background-color: #4a90e2;
+}
+
+.result-bar-b {
+  background-color: #e24a4a;
+}
+
+.majority {
+  border: 2px solid gold;
+}
+
+.vote-details {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.next-battle-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.social-share {
+  margin-top: 20px;
+}
+
+.social-share button {
+  margin: 0 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

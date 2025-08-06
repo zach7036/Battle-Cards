@@ -1,0 +1,24 @@
+.voting-page {
+  text-align: center;
+}
+
+.matchup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.matchup-container > div {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.matchup-container .selected {
+  transform: scale(1.05);
+}
+
+.matchup-container .not-selected {
+  transform: scale(0.9);
+  opacity: 0.6;
+}
